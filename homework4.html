@@ -6,22 +6,45 @@
     <title>Document</title>
     
     <style>
+        body{
+            margin-top: 80px;
+        }
 h1{
     position : fixed;
+    top: 5px;
+    left: 4px;
+    width: 100%;
+    background-color: rgb(222, 235, 235);
+    text-align: center;
 
 }
+img{
+    float: left;
+}
 .profile {
+margin-top: 80px;
     border: 4px solid black;
     padding: 2px;
     height: 500px;
-    width: 800px;
-    flot:left;
-    margin :auto;
+    width: 1000px;
+    float:left;
+    
     overflow: scroll;
     text-align: center;
-    
+    position: relative;
+    margin: auto;
+    word-spacing: 1px;
     
 
+}
+.contact{
+    border-bottom: 5px;
+    border-left: 3px solid black;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 
@@ -32,16 +55,18 @@ h1{
 <body>
     <h1>COMPANY CONTACT CARD</h1>
     <div class="profile">
-    <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg" height="190px width 200px">
+    <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg" height="190px width= 200px">
 
-
-    <h3> Sarah Johnson </h3>
+    <h3><i> Sarah Johnson </i></h3>
 <h4>Senior Web Developer </h4>
-<p>Sarah Johnson is a dedicated Senior Web Developer with expertise in HTML, CSS, and JavaScript. She enjoys creating responsive, user-friendly websites and delivering high-quality digital solutions.</p>
-<h3>contact information</h3>
-<h4>9596568695</h4>
-<h4> sarah@company.com </h4>
-<h4>www.company.com  </h4>
+<p><b>Sarah Johnson</b> is a dedicated and experienced Senior Web Developer with a strong passion for designing and building modern, responsive, and user-friendly websites. She has extensive knowledge of <b>HTML, CSS, JavaScript, and other web technologies,</b> enabling her to create attractive and functional web applications for businesses of all sizes. Sarah enjoys solving complex problems, improving website performance, and ensuring that every project delivers an excellent user experience. She works closely with designers, developers, and clients to understand project requirements and transform ideas into professional digital solutions. Her attention to detail, creativity, and commitment to continuous learning help her stay up to date with the latest trends in web development. Through teamwork, innovation, and dedication, Sarah consistently delivers high-quality projects that meet client expectations and contribute to the company's success.</p>
+ 
+    <div class="contact">
+contact information
+9596568695
+sarah@company.com 
+www.company.com 
+</div>
 </div>
 </body>
 </html>
