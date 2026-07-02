@@ -1,79 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Descendant Selector</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-
-body{
-    font-family: Arial, sans-serif;
-    background:#f2f2f2;
-    margin:0;
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
 }
 
-nav{
-    background:#004080;
-    color:white;
-    padding:15px;
-    text-align:center;
-    font-size:24px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
 }
 
-.container{
-    width:80%;
-    margin:auto;
-    background:white;
-    padding:20px;
-    margin-top:20px;
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
 
-.container p{
-    color:green;
-    font-size:18px;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
 
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:10px;
-    margin-top:20px;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
 }
-
 </style>
-
 </head>
-
 <body>
 
-<nav>
-Travel Explorer
-</nav>
-
-<div class="container">
-
-<h2>Welcome</h2>
-
-<p>
-Discover beautiful destinations around the world with us.
-</p>
-
-<section>
-
-<h3>Popular Tour</h3>
-
-<p>
-Visit mountains, beaches and historical places.
-</p>
-
-</section>
-
-</div>
-
-<footer>
-Copyright 2026
-</footer>
+<h2>Typical Media Query Breakpoints</h2>
+<p class="example">Resize the browser window to see how the background color of this paragraph 
+changes on different screen sizes.</p>
 
 </body>
 </html>
-   
